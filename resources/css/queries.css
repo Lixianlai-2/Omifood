@@ -1,0 +1,222 @@
+/*Big tablet to 1200px (width smalller than the 1140px row 之前我设置的row的最大宽度)但是有个地方要大一些，比如section-meals那里，那里是设置成最大宽度，如果设定了限度，那么它就是1200px  */
+@media only screen and (max-width:1200px) {
+  .hero-text-box {
+    width: 100%;
+	padding:0 2%;
+}
+	.row { padding:0 2%;}
+	
+	
+	.plan-box {
+		width: 90%;
+		margin-left: 5;
+	}
+	
+c
+}
+
+
+
+/* Small tablet to big tablet（横屏）: from 768px to 1023px */
+@media only screen and (max-width:1023px){
+
+
+	body {font-size: 18px; }
+	section { padding:60px 0; }
+	
+
+	.section-features .row .long-copy { 
+				margin-bottom: 30px; 
+				padding-left: 100px;
+				padding-right: 100px;
+				}
+	
+
+	.work-steps {margin-bottom: 40px}
+	.work-steps:last-of-type { margin-bottom:40px; }
+	.steps-box {margin-top: 10px;}
+	.steps-box:last-child {
+				margin-top: 60px;
+				}
+	
+	.section-steps .btn-app img {
+				margin-right: 10px;
+				height:40px;
+				}
+	
+	.app-screen {width: 45%;}
+	
+	
+	
+	.city-f eature ion-icon {
+				font-size: 100%;
+				margin-right: 1px;
+ 				} 
+	
+	.city-feature {font-size: 88%;}
+	
+	
+	.plan-box {
+		width: 100%;
+		margin-left: 0;
+		font-size: 94%;
+	}
+
+
+	.plan-price {font-size: 250%;}
+	
+	.contact-form {width: 80%;}
+	
+/*分界线-----------------------------------------------------*/	
+} 
+
+
+
+
+/* small phones to small tablets平板电脑 :frome 481 to 767px */
+@media only screen and (max-width:767px){
+	
+	 .row,
+	 .hero-text-box{
+		width: 100%;
+		padding:0 4%;
+		}
+	
+	h1 {font-size: 180%;}
+	h2 {font-size: 150%;}
+	
+	.section-features .row .long-copy {padding:0;}
+	
+	.col {width: 100%;
+		 margin: 0 0 4% 0;
+	}
+	
+	
+	
+	.main-nav {float: left;margin-top: 10px;margin-left: 20px;display: none;}
+	
+
+	.main-nav li {display: block;margin-bottom: 10px;}
+	
+	.main-nav li a:hover,
+	.main-nav li a:active,
+	.main-nav li a:link,
+	.main-nav li a:visited{
+    				border-bottom: 0;
+					}
+
+	
+/*
+	
+	header ion-icon {
+				display: inline-block;
+				font-size: 180%;
+				color:aliceblue;
+				float: right;
+				margin-top: 30px;
+				}
+*/
+	
+	
+	
+	.logo {height: 90px;}
+	
+	
+	
+	.sticky .logo-black {margin:10px;}
+	.sticky  ul{margin-top: 0; }
+	.sticky .ion-md-menu {
+		display: inline-block;
+				font-size: 180%;
+				color:#000;
+				float: right;
+				margin-top: 25px;
+				}
+	}
+	
+	.section-features .row .long-copy { 
+				width:100%;
+				margin:0;
+				}
+	
+	.steps-box:first-child {
+			   text-align: center;
+			   margin-bottom: 0px;
+			  }
+	
+	.app-screen {width: 35%;}
+	
+	
+	
+	.social-links {
+				display: block;
+				float: none;
+				list-style: none;
+				text-align: center;
+			}
+
+	.footer-nav  {
+				list-style: none;
+				display: block;
+				text-align: center;
+				float: none;
+				padding-left: 40px
+			}
+	
+	
+/*分界线-----------------------------------------------------*/		
+}
+
+
+
+
+
+
+
+/* Small phones:frome 0 to 480px */
+@media only screen and (max-width:480px){
+	section {padding:25px 0;}
+	
+	.contact-form {
+					width: 100%;
+					margin:0 auto; 
+				}
+	
+
+	.footer-nav  {
+		list-style: none;
+	/*	padding-right: 30px;*/
+		display: block;
+		text-align: center;
+		float: none;
+	}
+
+	.footer-nav li {
+		display: block;
+	}
+	
+	.social-links {
+		display: block;
+		float: none;
+		list-style: none;
+	}
+	
+	
+	.main-nav {float: left;margin-top: 10px;margin-left: 0px;display: none;}
+	
+
+	.main-nav li {display: block;margin-bottom: 10px;}
+	
+	.main-nav li a:hover,
+	.main-nav li a:active,
+	.main-nav li a:link,
+	.main-nav li a:visited{
+    				border-bottom: 0;
+					}
+
+	
+	.logo {height: 60px;}
+
+	
+	
+	
